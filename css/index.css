@@ -10,13 +10,25 @@
     height: 1000px;
 }
 
-.w-10{
-    width:150px;
+.w-10 {
+    width: 150px;
 }
+
+
 
 @media screen and (min-width:768px) {
     .topBg {
         background-image: url('../images/developerbg.png');
         height: 800px;
+    }
+
+    .cardw-33 {
+        width: 33.33%
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .cardw-33 {
+        width: 50%
     }
 }
